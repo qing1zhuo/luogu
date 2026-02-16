@@ -1,4 +1,4 @@
-# Copilot Instructions for 洛谷题目 Codebase
+# Copilot Instructions for luogu Codebase
 
 ## 项目结构与主要内容
 - 本项目以洛谷题目为单位，每个子文件夹（如 `B2141/`, `B3631/`, `B3860/`, `P1996/`）对应一个题目，包含：
