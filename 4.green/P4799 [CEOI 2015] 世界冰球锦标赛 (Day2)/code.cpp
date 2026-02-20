@@ -56,14 +56,8 @@ int main()
     }
     ll left_size=half_vec[0].size(),right_size=half_vec[1].size();
     //给右数组做前缀和
-    ll pre_sum;
+    ll pre_sum=0;
     for(ll i=0;i<right_size;i++){
-        //对第一个做特殊处理
-        if(i==0){
-            pre_right.push_back(half_vec[1][i].second);
-            pre_sum=half_vec[1][i].second;
-            continue;
-        }
         pre_sum=pre_sum+half_vec[1][i].second;
         pre_right.push_back(pre_sum);
     }
