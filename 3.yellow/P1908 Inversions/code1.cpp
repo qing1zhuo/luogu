@@ -1,3 +1,7 @@
+/*
+    采用归并排序做法
+*/
+
 #include<iostream>
 using namespace std;
 #define ll long long
